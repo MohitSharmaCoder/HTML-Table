@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tata-narend, .container{
+  padding: 15px;
+}
+#example{
+  border: none;
+  table-layout: fixed;
+  width: 100%;
+  color: #A8A9A9;
+}
+#month{
+  text-align: start;
+  padding: 10px 200px;
+}
+table:focus, th:focus, td:focus{
+  outline: none;
+  
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+thead tr th{
+  background-color: #FAFAFA;
+}
+tr th{
+  background-color: #FAFAFA;
+  width: 400px;
+}
+
+@media screen and (max-width:980px){
+  #month{
+    text-align: start;
+    padding: 10px 100px;
+  }
+  tr th{
+    background-color: #FAFAFA;
+    width: 300px;
+  }
+}
+@media screen and (max-width:780px){
+  #month{
+    text-align: start;
+    padding: 10px 60px;
+  }
+  tr th{
+    background-color: #FAFAFA;
+    width: 150px;
+  }
+}
